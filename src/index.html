@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="@@autopath/node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+    <link rel="stylesheet" href="@@autopath/assets/vendor/dzsparallaxer/dzsparallaxer.css">
   </head>
 
 
@@ -208,20 +209,23 @@
     </div>
   </header>
   <!-- ========== END HEADER ========== -->
-<!-- Hero Section -->
-  <div class="bg-img-hero" style="background-image: url(@@autopath/assets/img/others/DRD-one-van-1.jpeg);">
-    <div class="container space-2 space-lg-3">
-      <div class="w-md-65 w-lg-35">
-        <div class="mb-4">
-          <h1>It's never too late</h1>
-          <p class="text-dark">Simplicity is iconic. Minimal design, maximum style. From glasses to street favorite.</p>
-        </div>
-        <a class="btn btn-primary btn-pill transition-3d-hover px-5" href="#">Shop Now</a>
+
+
+  <!-- Hero Section -->
+<div class="clearfix mx-4">
+  <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll min-vh-md-100" data-options='{direction: "normal"}'>
+    <!-- Apply your Parallax background image here -->
+    <div class="divimage dzsparallaxer--target" style="height: 130%; background-image: url(../../assets/img/others/xDRD-Vans2.jpg.pagespeed.ic.urzHExJl6g.webp);"></div>
+
+    <div class="d-md-flex space-3 space-md-0">
+      <div class="container d-md-flex justify-content-md-center align-items-md-center flex-md-column min-vh-md-100 text-center">
+        <h1 class="display-1 text-white">Alabaster.</h1>
+        <p class="lead text-white">An exploration of creativity, beauty, and faith.</p>
       </div>
     </div>
   </div>
-  <!-- End Hero Section -->
-
+</div>
+<!-- End Hero Section -->
    
 
    <!-- JS Global Compulsory @@deleteLine:build -->
@@ -232,7 +236,8 @@
     
     <!-- JS Implementing Plugins -->
     <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-    <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>  
+    <script src="@@autopath/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>
